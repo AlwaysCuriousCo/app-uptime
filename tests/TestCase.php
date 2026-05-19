@@ -2,9 +2,9 @@
 
 namespace AlwaysCurious\AppUptime\Tests;
 
+use AlwaysCurious\AppUptime\AppUptimeServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use AlwaysCurious\AppUptime\AppUptimeServiceProvider;
 
 class TestCase extends Orchestra
 {

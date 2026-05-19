@@ -2,9 +2,9 @@
 
 namespace AlwaysCurious\AppUptime;
 
+use AlwaysCurious\AppUptime\Commands\AppUptimeCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use AlwaysCurious\AppUptime\Commands\AppUptimeCommand;
 
 class AppUptimeServiceProvider extends PackageServiceProvider
 {
