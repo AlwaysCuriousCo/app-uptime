@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace AlwaysCurious\AppUptime\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class AppUptimeCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'app-uptime';
 
     public $description = 'My command';
 
