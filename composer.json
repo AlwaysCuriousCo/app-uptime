@@ -1,10 +1,14 @@
 {
     "name": "alwayscurious/app-uptime",
-    "description": "This is my package app-uptime",
+    "description": "An itemised /up status page for Laravel: heartbeat history, per-check detail, and response-time charts on top of spatie/laravel-health.",
     "keywords": [
         "Always Curious",
         "laravel",
-        "app-uptime"
+        "app-uptime",
+        "health",
+        "uptime",
+        "heartbeat",
+        "spatie/laravel-health"
     ],
     "homepage": "https://github.com/alwayscurious/app-uptime",
     "license": "MIT",
@@ -16,8 +20,9 @@
         }
     ],
     "require": {
-        "php": "^8.4",
+        "php": "^8.3",
         "spatie/laravel-package-tools": "^1.16",
+        "spatie/laravel-health": "^1.39",
         "illuminate/contracts": "^11.0||^12.0||^13.0"
     },
     "require-dev": {
@@ -64,10 +69,7 @@
         "laravel": {
             "providers": [
                 "AlwaysCurious\\AppUptime\\AppUptimeServiceProvider"
-            ],
-            "aliases": {
-                "AppUptime": "AlwaysCurious\\AppUptime\\Facades\\AppUptime"
-            }
+            ]
         }
     },
     "minimum-stability": "dev",
