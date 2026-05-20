@@ -3,7 +3,6 @@
 namespace AlwaysCurious\AppUptime;
 
 use Illuminate\Support\Facades\Route;
-use AlwaysCurious\AppUptime\Commands\AppUptimeCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
