@@ -8,7 +8,7 @@
         "health",
         "uptime",
         "heartbeat",
-        "spatie/laravel-health"
+        "spatie-laravel-health"
     ],
     "homepage": "https://github.com/alwayscurious/app-uptime",
     "license": "MIT",
